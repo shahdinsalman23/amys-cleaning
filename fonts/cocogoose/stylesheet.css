@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Cocogoose';
+    src: url('Cocogoose-Light.eot');
+    src: url('Cocogoose-Light.eot?#iefix') format('embedded-opentype'),
+        url('Cocogoose-Light.woff2') format('woff2'),
+        url('Cocogoose-Light.woff') format('woff'),
+        url('Cocogoose-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
