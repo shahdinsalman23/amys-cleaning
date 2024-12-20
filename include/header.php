@@ -12,7 +12,7 @@
 <body>
 
     <!-- Header Top Section Start -->
-    <section class="header-top wow bounceInLeft" style="animation-duration: 1.5s;">
+    <section class="header-top" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 col-md-9">
@@ -48,10 +48,10 @@
     <!-- Header Top Section End-->
 
     <!-- Header Main Section Start -->
-    <header class="header-main wow bounceInDown center" style="animation-duration: 1.5s;">
+    <header class="header-main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-4 col-6">
                     <div class="header-logo">
                         <a href="index.php"><img src="images/logo.png" alt=""></a>
                     </div>
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-3">
+                <div class="col-lg-6 col-md-3 col-6">
                     <div class="header-nav">
                         <ul>
                             <li><a href="index.php">Home</a></li>
@@ -89,9 +89,11 @@
     <!-- Sidebar Menu Section Start -->
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+        <a href="index.php">Home</a>
+        <a href="about-us.php">About Us</a>
+        <a href="service.php">Services</a>
+        <a href="area.php">Areas</a>
+        <a href="blog.php">Blogs</a>
+        <a href="contact.php">Contact Us</a>
     </div>
     <!-- Sidebar Menu Section End -->

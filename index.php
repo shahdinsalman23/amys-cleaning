@@ -18,7 +18,7 @@
                                 attention to detail and high-quality products and experience the difference today!</p>
                             <div class="solution-btn">
                                 <a href="service.php" class="theme-btn">Services</a>
-                                <div class="video-icon_btn">
+                                <!-- <div class="video-icon_btn">
                                     <a href="#" class="theme_icon_btn">Get A Quotes</a>
                                     <div class="post-icon">
                                         <a class="button is-play" href="javascript:;">
@@ -34,7 +34,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>

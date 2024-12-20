@@ -7,12 +7,12 @@
         <div class="footer-top">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4">
                         <div class="footer-logo">
                             <img src="images/logo.png" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4">
                         <div class="footer-estimate">
                             <img src="images/comment.png" alt="">
                             <div class="estimate-txt">
@@ -21,7 +21,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4">
                         <div class="footer-estimates">
                             <img src="images/comment.png" alt="">
                             <div class="estimate-txt">
@@ -40,7 +40,7 @@
     <footer class="footer-main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-7">
                     <div class="get-in-touch">
                         <h4>Get in Touch!</h4>
                         <p>Monday-Saturday: 8:00 am to 8:00 pm EST</p>
@@ -59,7 +59,7 @@
                     <!--    <span>1218 Mockingbird Lane</span>-->
                     <!--</div>-->
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-5">
                     <div class="footer-links">
                         <h4>Usefull Links</h4>
                         <ul>
@@ -80,8 +80,10 @@
                             <span><i class='bx bxs-paper-plane'></i></span>
                         </div>
                         <ul>
-                            <li><a href="https://www.facebook.com/profile.php?id=100093533093941&mibextid=LQQJ4d"><i class='bx bxl-facebook'></i></a></li>
-                            <li><a href="instagram.com/amy_cleaningclt?igshid=OGQ5ZDc2ODk2ZA"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
                         </ul>
                     </div>
                 </div>

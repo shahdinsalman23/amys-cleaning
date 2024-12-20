@@ -11,7 +11,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="row">
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="blog-cart">
                   <img src="images/commercial-banner.png" alt="" class="img-fluid">
                   <ul class="blog-detail">
@@ -27,7 +27,7 @@
                   <a href="#">Read More</a>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="blog-cart">
                   <img src="images/commercial-banner.png" alt="" class="img-fluid">
                   <ul class="blog-detail">
@@ -43,7 +43,7 @@
                   <a href="#">Read More</a>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="blog-cart">
                   <img src="images/commercial-banner.png" alt="" class="img-fluid">
                   <ul class="blog-detail">
@@ -59,7 +59,7 @@
                   <a href="#">Read More</a>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="blog-cart">
                   <img src="images/commercial-banner.png" alt="" class="img-fluid">
                   <ul class="blog-detail">
@@ -75,7 +75,7 @@
                   <a href="#">Read More</a>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="blog-cart">
                   <img src="images/commercial-banner.png" alt="" class="img-fluid">
                   <ul class="blog-detail">
@@ -91,7 +91,7 @@
                   <a href="#">Read More</a>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div class="blog-cart">
                   <img src="images/commercial-banner.png" alt="" class="img-fluid">
                   <ul class="blog-detail">

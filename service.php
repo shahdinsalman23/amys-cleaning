@@ -6,7 +6,7 @@
         <h2>Services</h2>
         <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="cleaning-boxs">
                             <img src="images/clean-one.png" alt="">
                             <h3>Regular Cleaning</h3>
@@ -17,7 +17,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="cleaning-boxs">
                             <img src="images/clean-two.png" alt="">
                             <h3>Deep Cleaning</h3>
@@ -28,7 +28,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="cleaning-boxs">
                             <img src="images/clean-three.png" alt="">
                             <h3>Move In / Move Out Cleaning</h3>
@@ -39,7 +39,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="cleaning-boxs">
                             <img src="images/clean-four.png" alt="">
                             <h3>Laundry Cleaning</h3>
@@ -50,7 +50,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="cleaning-boxs">
                             <img src="images/clean-four.png" alt="">
                             <h3>Organizing Service</h3>

@@ -1128,6 +1128,7 @@ a.theme_btn:hover:before {
 
 .working-pocess {
   text-align: center;
+  margin: 0px 0px 30px 0px;
 }
 
 .working-pocess h3 {
@@ -2194,22 +2195,24 @@ section.our-blogs-sec {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 999999;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #E58EAA;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  box-shadow: rgb(100 100 111 / 63%) 5px 0px 29px 0px;
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #3C3B40;
   display: block;
   transition: 0.3s;
+  font-family: 'Outfit';
 }
 
 .sidenav a:hover {
@@ -2222,6 +2225,11 @@ section.our-blogs-sec {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+}
+
+
+.sidebar-icon span {
+  display: none;
 }
 
 
@@ -2244,7 +2252,22 @@ section.our-blogs-sec {
 }
 
 
-@media screen and (max-width: 1280px) {}
+@media screen and (max-width: 1280px) {
+  .footer-estimate::before {
+    left: 100px;
+}
+
+.wories-txt::before {
+  right: -56px;
+}
+
+.expertise-txt::before {
+  width: 822px;
+  background: #E58EAA;
+  right: -110px;
+}
+
+}
 
 @media screen and (max-width: 1024px) {}
 
@@ -2270,11 +2293,16 @@ section.our-blogs-sec {
   font-size: 18px;
 }
 
+.sidebar-icon span {
+  display: block;
+}
+
 .sidebar-icon {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   height: 100%;
+  padding: 0px 20px 0px 0px;
 }
 
 .sidebar-icon span {
@@ -2375,10 +2403,400 @@ section.our-blogs-sec {
   padding: 50px 0px 50px 0px;
 }
 
+.contact-customer-banner {
+  margin: 40px 0px 0px 0px;
+}
+
+.footer-subscribe h4 {
+  padding: 40px 0px 10px 0px;
+}
+
+.contact-det h3 {
+  margin: 0px;
+}
+
+.contact-det span {
+  font-size: 14px;
+}
+
+.contact-det {
+  padding: 0px 70px 0px 0px;
+}
+
+.get-in-touch p {
+  padding: 0px 0px 10px;
+}
+
+.input-subscribe span {
+  bottom: 64px;
+}
+
+.footer-logo::before {
+  width: 400px;
+  height: 310px;
+  top: -0.2px;
+}
+
+.footer-estimate::before {
+  height: 46px;
+  width: 46px;
+  left: 6px;
+  top: 37px;
+}
+
+.footer-estimate img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+
+.estimate-txt h6 {
+  font-size: 11px;
+  margin: 0px;
+}
+
+.estimate-txt p {
+  font-family: 'Didact Gothic';
+  font-size: 12.5px;
+}
+
+
+.footer-estimates img {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-logo img {
+  width: 123px;
+  padding: 10px 0px 0px 0px;
+}
+
+.footer-estimates::before {
+  height: 46px;
+  width: 46px;
+  top: 37px;
+}
+
+.footer-top {
+  padding: 0px 0px;
+}
+
+
+.button.is-play .button-outer-circle {
+  left: 51.9%;
+}
+
+
+.button.is-play .button-icon {
+  left: 55.2%;
+}
+
+
+.cleaning-boxs p {
+  height: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cleaning-btns {
+  margin: 20px 0px 0px 0px;
+}
+
+.cleaning-boxs {
+  padding: 30px 30px 30px 30px;
+  height: auto;
+}
+
 
 }
 
 
 
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+
+  .solution-txt h2 {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.solution-txt p {
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.solution-txt h3 {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.solution-btn .theme-btn {
+  padding: 12px 35px;
+}
+
+
+
+
+.clean-home p {
+  text-align: center;
+}
+
+
+.header-social-icons {
+  justify-content: center;
+  padding: 0px 0px 15px 0px;
+}
+
+
+.get-book {
+  display: none;
+}
+
+
+.header-main .container .row .col-md-5 {
+    display: none;
+}
+
+.header-logo img {
+  width: 100px;
+}
+
+.header-logo::before {
+  height: 270px;
+  width: 370px;
+}
+
+.meet-your-need::before {
+  top: 173px;
+  height: 638px;
+}
+
+
+.experience h2 {
+  font-size: 20px;
+  height: auto;
+  padding: 10px;
+}
+
+.experience span {
+  font-size: 30px;
+}
+
+
+.theme-btn {
+  font-size: 18px;
+  padding: 12px 25px;
+}
+
+.theme-light {
+  padding: 12px 25px;
+  font-size: 18px;
+}
+
+.our-best-cleaning h2 {
+  font-size: 38px;
+  line-height: 38px;
+}
+
+.our-best-cleaning P {
+  font-size: 16px;
+  padding: 0px 10px 60px 10px;
+}
+
+
+.commercial-txt h2 {
+  font-size: 38px;
+  line-height: 38px;
+}
+
+.commercial-txt {
+  text-align: center;
+}
+
+
+.wories-away {
+  padding: 50px 10px;
+}
+
+
+.wories-txt h2 {
+  font-size: 38px;
+  line-height: 38px;
+}
+
+
+.wories-txt {
+  text-align: center;
+}
+
+.expertise-txt h2 {
+  font-size: 38px;
+  line-height: 38px;
+}
+
+.expertise-txt {
+  text-align: center;
+}
+
+.over-clean {
+  align-items: center;
+  gap: 10px;
+  padding: 5px 0px;
+  flex-direction: column;
+}
+
+.over-clean-txt p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.over-clean-txt h4 {
+  font-size: 24px;
+  line-height: 31px;
+  color: #1D1D1F;
+  margin: 0px 0px 4px 0px;
+}
+
+.client-say-sec h2 {
+  font-size: 34px;
+  line-height: 40px;
+  padding: 0px 10px;
+}
+
+.customer-txt {
+  text-align: center;
+}
+
+.customer-contact-btn {
+  text-align: center;
+}
+
+.footer-estimate {
+  justify-content: start;
+  gap: 15px;
+  padding: 20px 0px 20px 12px;
+}
+
+.footer-estimates {
+  padding: 30px 0px 20px 13px;
+}
+
+.footer-estimates::before {
+  left: 6px;
+  top: 35px;
+}
+
+.contact-det {
+  padding: 0px 0px 0px 0px;
+}
+
+.get-in-touch {
+  text-align: center;
+}
+
+.get-in-touch p {
+  font-size: 14px;
+  padding: 0px 0px 2px;
+}
+
+.footer-links h4 {
+  padding: 0px 0px 0px 0px;
+}
+
+
+.footer-links {
+  padding: 40px 0px 0px 0px;
+}
+
+.footer-subscribe {
+  text-align: center;
+}
+
+.footer-subscribe ul {
+  justify-content: center;
+}
+
+footer.footer-main {
+  padding: 50px 0px 20px 0px;
+}
+
+.footer-subscribe p {
+  line-height: 24px;
+}
+
+.customer-txt h2 {
+  font-size: 38px;
+  line-height: 40px;
+}
+
+section.about-banner h2 {
+  font-size: 50px;
+  line-height: 40px;
+  padding: 0px 0px 40px 0px;
+}
+
+.about-banner-txt h3 {
+  font-size: 38px;
+  line-height: 40px;
+}
+
+
+.about-banner-txt {
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+}
+
+.estimate-txt h6 {
+  font-size: 14px;
+  margin: 0px 0px 3px 0px;
+}
+
+.estimate-txt p {
+  font-family: 'Didact Gothic';
+  font-size: 16px;
+  margin: 0px 0px 5px 0px;
+}
+
+.footer-estimate::before {
+  top: 25px;
+}
+
+.footer-links ul li a {
+  font-size: 16px;
+}
+
+
+.service-detail h2 {
+  font-size: 50px;
+  line-height: 60px;
+}
+
+
+.section-title h3 {
+  font-size: 50px;
+  line-height: 59px;
+  text-shadow: 1px 0px 7px #00000066;
+}
+
+.contact-us .form-main {
+  padding: 30px;
+}
+
+
+.contact-us .title h3 {
+  font-size: 30px;
+  line-height: 36px;
+  color: #000;
+}
+
+
+.noka-work {
+  padding: 50px 10px 50px 10px;
+}
+
+.client-say-sec p {
+  padding: 0px 0px 0px 0px;
+}
+
+}
